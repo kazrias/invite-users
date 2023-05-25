@@ -1,0 +1,40 @@
+.skeleton-list {
+  height: calc(100% - 130px);
+  margin-top: 30px;
+
+  svg {
+    margin-bottom: 15px;
+  }
+}
+
+@keyframes success-show {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.skeleton-list {
+  height: calc(100% - 130px);
+  margin-top: 30px;
+
+  svg {
+    margin-bottom: 15px;
+  }
+}
+
+@keyframes success-show {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
