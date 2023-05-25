@@ -14,7 +14,7 @@ function User({ id, email, first_name, last_name, avatar, onClickInvite, isInvit
           </p>
         </div>
       </div>
-      <img onClick={()=>onClickInvite(id)} className="action" src={`../../src/assets/${isInvited ? 'minus' : 'plus'}.svg`} alt="Action" />
+      <img onClick={()=>onClickInvite(id)} className="action" src={`./src/assets/${isInvited ? 'minus' : 'plus'}.svg`} alt="Action" />
     </li>
   )
 };
