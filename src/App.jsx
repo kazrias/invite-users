@@ -32,13 +32,14 @@ function App() {
       .finally(() => setLoading(false));
   }, [])
   return (
-    <div className='App'>
-
-      {
-        success ?
-          <Success count={invites.length} /> :
-          <Users invites={invites} onClickInvite={onClickInvite} onClickSendInvites={onClickSendInvites} isLoading={isLoading} items={users} />
-      }
+    <div className="container">
+      <div className='App'>
+        {
+          success ?
+            <Success count={invites.length} /> :
+            <Users invites={invites} onClickInvite={onClickInvite} onClickSendInvites={onClickSendInvites} isLoading={isLoading} items={users} />
+        }
+      </div>
     </div>
   )
 }
